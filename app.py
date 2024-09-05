@@ -25,7 +25,7 @@ try:
 
     # Load
     df.to_csv('transformed_data.csv', index=False)
-    log_message(f'ETL job completed at {etl_timestamp} and data saved to transformed_data.csv')
+    log_message(f'ETL job completed at {etl_timestamp} and data is saved to transformed_data.csv')
 
 except Exception as e:
     log_message(f'ETL job failed with error: {e}')
